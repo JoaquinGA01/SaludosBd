@@ -1,4 +1,4 @@
 from ubuntu
 WORKDIR /tareasmatadoras
 expose 8080
-cmd ["/tareasmatadoras"]
+cmd ["/tareasmatadoras/mvnw","spring-boot:run"]
