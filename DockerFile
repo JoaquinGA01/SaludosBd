@@ -2,3 +2,8 @@ from ubuntu
 WORKDIR /tareasmatadoras
 expose 8080
 cmd ["/tareasmatadoras/mvnw","spring-boot:run"]
+run apt-get update
+run apt-get install -y openjdk-8
+run apt-get install -y curl
+run apt-get install -y nano
+run apt-get install -y unzip
